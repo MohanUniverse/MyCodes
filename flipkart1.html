@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlipKart</title>
+    <link rel="stylesheet" href="../../FontAwesome/fontawesome-free-6.7.2-web/css/all.css">
+    <style>
+        * {
+            margin: 0;
+        }
+        header {
+            background-color: rgb(68, 68, 240);
+            display: flex;
+            height: 100px;
+            align-items: center;
+            gap: 40px;
+            justify-content: center;
+        }
+        header>.items>h2 {
+            font-size: 25px;
+            color: white;
+        }
+        header>.items>a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        header>.items>span {
+            color: white;
+        }
+        header>.items>button {
+            padding: 10px;
+            background-color: white;
+            color: black;
+            width: 100px;
+            border: none;
+            cursor: pointer;
+        }
+        .search-container {
+            position: relative;
+        }
+        .search-container input {
+            width: 300px;
+            padding: 10px 40px 10px 15px; /* Add padding to the right for the icon */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .search-container .search-icon {
+            position: absolute;
+            right: 10px; /* Position the icon inside the input field */
+            top: 50%;
+            transform: translateY(-50%);
+            color: #888;
+            font-size: 18px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+            justify-content: space-evenly;
+            box-shadow: 0 0 30px black;
+            height: 70px;
+            align-items: center;
+        }
+        nav>.items>a {
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+        }
+        nav>.items>a:hover {
+            color: blue;
+        }
+        .card {
+            height: 90px;
+            text-align: center;
+            border: 1px solid black;
+            padding-top: 30px;
+            margin-bottom: 5px;
+        }
+        .card>span {
+            margin-top: 0;
+        }
+        #plus {
+            color: yellow;
+        }
+        .image>img {
+            width: 200px;
+            height: 200px;
+            text-align: center;
+        }
+        .image {
+            width: 300px;
+            height: 320px;
+            padding: 10px;
+            margin: 20px 5px;
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 10px;
+        }
+        p {
+            text-align: justify;
+            padding: 0 18px;
+        }
+        .image>button {
+            padding: 10px;
+            background-color: orangered;
+            color: white;
+            width: 100px;
+            margin: 20px 0;
+            border: none;
+            cursor: pointer;
+        }
+        .img {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+        img {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="items">
+            <h2>FlipKart</h2>
+            <span>Explore <span id="plus">Plus</span></span>
+        </div>
+        <div class="items search-container">
+            <input type="text" placeholder="Search for Products">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+        <div class="items">
+            <button>Login</button>
+        </div>
+        <div class="items">
+            <a href="">Become a Seller</a>
+        </div>
+        <div class="items">
+            <a href="">More</a>
+        </div>
+        <div class="items">
+            <a href="">Cart</a>
+        </div>
+    </header>
+    <nav>
+        <div class="items">
+            <a href="">తెలుగు పౌరాణిక పుస్తకాలు <i class="fa-solid fa-book"></i></a>
+        </div>
+        <div class="items">
+            <a href="">Electronics <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <div class="items">
+            <a href="">Tvs & Applinces <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <div class="items">
+            <a href="">Home&Furniture <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <div class="items">
+            <a href="">Men <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <div class="items">
+            <a href="">Women <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <div class="items">
+            <a href="">Baby&Kids <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <div class="items">
+            <a href="">Flights <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <div class="items">
+            <a href="">Offers <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+    </nav>
+    <div class="card">
+        <h2>తెలుగు పౌరాణిక పుస్తకాలు</h2>
+        <span>16 Items</span>
+    </div>
+    <div class="img">
+        <!-- Products with images go here -->
+        <!-- Example -->
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn6MzaGf-y43KywKGsMvYlKlEemIajL9e2yg&s" alt="Book Image">
+            <p>If we claim to have no free will, we convert God into a devil who compels us to evil</p>
+            <button>Buy Now</button>
+        </div>
+        <!-- Repeat for other items -->
+    </div>
+</body>
+</html>

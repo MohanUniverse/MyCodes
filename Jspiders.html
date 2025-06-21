@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../FontAwesome/fontawesome-free-6.7.2-web/css/all.css">
+    <title>Jspiders DropDown</title>
+    <style>
+        a {
+            margin-right: 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .div {
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0px 0px 20px black;
+        }
+        a:hover {
+            color: orange;
+        }
+        .col {
+            color: orange;
+        }
+        .container {
+            background-color: brown;
+            color: white;
+            height: 20px;
+            position: relative;
+            margin-top: 20px;
+            width: 85px;
+            padding: 10px;
+            text-align: center;
+            
+
+        }
+        .c1{
+            
+                background-color: rgb(81, 42, 165);
+                color: white;
+                margin: 5px;
+                position: relative;
+                margin-top: 20px;
+                width: 85px;
+                padding: 10px;
+                text-align: center;
+                height: 20px;
+
+            }
+            .c1:hover .items {
+                display: block;
+
+            }
+            .c2{
+            
+                background-color: rgb(122, 165, 42);
+                color: white;
+                margin: 5px;
+                position: relative;
+                margin-top: 20px;
+                width: 95px;
+                padding: 10px;
+                text-align: center;
+                height: 20px;
+
+            }
+            .c2:hover .items {
+                display: block;
+
+            }
+            .c3{
+            
+                background-color: rgb(42, 122, 165);
+                color: white;
+                margin: 5px;
+                position: relative;
+                margin-top: 20px;
+                width: 95px;
+                padding: 10px;
+                text-align: center;
+                height: 20px;
+
+            }
+            .c3:hover .items {
+                display: block;
+
+            }
+            .c4{
+            
+                background-color: rgb(220, 108, 3);
+                color: white;
+                margin: 5px;
+                position: relative;
+                margin-top: 20px;
+                width: 120px;
+                padding: 10px;
+                text-align: center;
+                height: 20px;
+
+            }
+            .c4:hover .items {
+                display: block;
+
+            }
+            .c5{
+            
+                background-color: rgba(164, 6, 221, 0.637);
+                color: white;
+                margin: 5px;
+                position: relative;
+                margin-top: 20px;
+                width: 120px;
+                padding: 10px;
+                text-align: center;
+                height: 20px;
+
+            }
+            .c5:hover .items {
+                display: block;
+
+            }
+            .c6{
+            
+                background-color: rgb(241, 31, 31);
+                color: white;
+                margin: 5px;
+                position: relative;
+                margin-top: 20px;
+                width: 95px;
+                padding: 10px;
+                text-align: center;
+                height: 20px;
+
+            }
+            .c6:hover .items {
+                display: block;
+
+            }
+            .c7{
+            
+                background-color: rgb(221, 140, 10);
+                color: white;
+                margin: 5px;
+                position: relative;
+                margin-top: 20px;
+                width: 120px;
+                padding: 10px;
+                text-align: center;
+                height: 20px;
+
+            }
+            .c7:hover .items {
+                display: block;
+
+            }
+            .c8{
+            
+                background-color: rgb(200, 8, 171);
+                color: white;
+                margin: 5px;
+                position: relative;
+                margin-top: 20px;
+                width: 85px;
+                padding: 10px;
+                text-align: center;
+                height: 20px;
+
+            }
+            .c8:hover .items {
+                display: block;
+
+            }
+            .c9{
+            
+                background-color: rgb(146, 139, 145);
+                color: white;
+                margin: 5px;
+                position: relative;
+                margin-top: 20px;
+                width: 85px;
+                padding: 10px;
+                text-align: center;
+                height: 20px;
+
+            }
+            .c9:hover .items {
+                display: block;
+
+            }
+            .c0{
+            
+                background-color: rgb(42, 106, 165);
+                color: white;
+                margin: 5px;
+                position: relative;
+                margin-top: 20px;
+                width: 85px;
+                padding: 10px;
+                text-align: center;
+                height: 20px;
+
+            }
+            .c0:hover .items {
+                display: block;
+
+            }
+            .c11{
+            
+                background-color: red;
+                color: white;
+                margin: 5px;
+                position: relative;
+                margin-top: 20px;
+                width: 85px;
+                padding: 10px;
+                text-align: center;
+                height: 20px;
+
+            }
+            .c11:hover .items {
+                display: block;
+
+            }
+        .container span {
+            font-size: 15px;
+        }
+        .items {
+            background-color: white;
+            width: 100%;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            display: none;
+            
+            
+        }
+        .items a {
+            display: block;
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .items a:hover {
+            background-color: orange;
+            color: white;
+        }
+        .container:hover .items {
+            display: block;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <a class="col" href=""><i class="fa-solid fa-house"></i> Home</a>
+        <a href=""><i class="fa-solid fa-book"></i> Courses</a>
+        <a href=""><i class="fa-solid fa-calendar-days"></i> Batches</a>
+        <a href=""><i class="fa-solid fa-cubes"></i> Corporates</a>
+        <a class="col" href=""><i class="fa-solid fa-address-book"></i> Contacts</a>
+        <a class="col" href=""><i class="fa-solid fa-people-group"></i> Placements</a>
+        <a class="col" href=""><i class="fa-regular fa-pen-to-square"></i> Enquiry</a>
+        <a class="col" href=""><i class="fa-solid fa-phone"></i> +91-7095445178</a>
+    </div>
+   <div class="row">
+    <div class="container">
+        <span>Global <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">UK</a>
+            <a href="">USA</a>
+        </div>
+    </div>
+
+    <div class="c1">
+        <span>Online <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">Online</a>
+            
+        </div>
+    </div>
+    <div class="c2">
+        <span>Maharastra <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">Mumbai</a>
+            <a href="">Pune</a>
+        </div>
+    </div>
+    <div class="c3">
+        <span>Tamilanadu <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">Chennai</a>
+            <a href="">Madhrai</a>
+        </div>
+    </div>
+    <div class="c4">
+        <span>MadhyaPradesh <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">Bhopal</a>
+            
+        </div>
+    </div>
+    <div class="c5">
+        <span>AndhraPradesh <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">Amaravati</a>
+            <a href="">Vizag</a>
+            <a href="">Tirupati</a>
+        </div>
+    </div>
+    <div class="c6">
+        <span>Telangana <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">Hyderabad</a>
+            <a href="">Secundrabad</a>
+        </div>
+    </div>
+    <div class="c7">
+        <span>UtterPradesh <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">Mahakumbhamela</a>
+            <a href="">Noida</a>
+        </div>
+    </div>
+    <div class="c8">
+        <span>Delhi <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">Delhi</a>
+            <a href="">RedFord</a>
+        </div>
+    </div>
+    <div class="c9">
+        <span>Rajastan <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">Ahamadabad</a>
+            <a href="">Desert</a>
+        </div>
+    </div>
+    <div class="c0">
+        <span>Odisha <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">Odisha</a>
+            <a href="">Bhuvaneshwar</a>
+        </div>
+    </div>
+    <div class="c11">
+        <span>Kerala <i class="fa-solid fa-sort-down"></i></span>
+        <div class="items">
+            <a href="">Kochi</a>
+            <a href="">Tiruvantapuram</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

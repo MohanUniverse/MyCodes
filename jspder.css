@@ -1,0 +1,605 @@
+body{
+    width: 100%;
+}
+*{
+    margin: 0px;
+}
+nav>.tittle>h1::first-letter
+{
+    color: orange;
+
+}
+nav{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.underline{
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 3px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 20px;
+}
+nav>.tittle>h1{
+    margin-top: 10px;
+    font-size: 40px;
+    font-style: italic;
+}
+.a:hover{
+    color: orange;
+}
+.acolors{
+    color: orange;
+}
+.container {
+    background-color: brown;
+    color: white;
+    height: 20px;
+    position: relative;
+    margin-top: 20px;
+    width: 85px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 0px;
+    
+
+}
+.c1{
+    
+        background-color: rgb(81, 42, 165);
+        color: white;
+        margin: 1px;
+        position: relative;
+        margin-top: 20px;
+        width: 85px;
+        padding: 10px;
+        text-align: center;
+        height: 20px;
+
+    }
+    .c1:hover .items {
+        display: block;
+
+    }
+    .c2{
+    
+        background-color: rgb(122, 165, 42);
+        color: white;
+        margin: 1px;
+        position: relative;
+        margin-top: 20px;
+        width: 95px;
+        padding: 10px;
+        text-align: center;
+        height: 20px;
+
+    }
+    .c2:hover .items {
+        display: block;
+
+    }
+    .c3{
+    
+        background-color: rgb(42, 122, 165);
+        color: white;
+        margin: 1px;
+        position: relative;
+        margin-top: 20px;
+        width: 95px;
+        padding: 10px;
+        text-align: center;
+        height: 20px;
+
+    }
+    .c3:hover .items {
+        display: block;
+
+    }
+    .c4{
+    
+        background-color: rgb(220, 108, 3);
+        color: white;
+        margin: 1px;
+        position: relative;
+        margin-top: 20px;
+        width: 120px;
+        padding: 10px;
+        text-align: center;
+        height: 20px;
+
+    }
+    .c4:hover .items {
+        display: block;
+
+    }
+    .c5{
+    
+        background-color: rgba(164, 6, 221, 0.637);
+        color: white;
+        margin: 1px;
+        position: relative;
+        margin-top: 20px;
+        width: 120px;
+        padding: 10px;
+        text-align: center;
+        height: 20px;
+
+    }
+    .c5:hover .items {
+        display: block;
+
+    }
+    .c6{
+    
+        background-color: rgb(241, 31, 31);
+        color: white;
+        margin: 1px;
+        position: relative;
+        margin-top: 20px;
+        width: 95px;
+        padding: 10px;
+        text-align: center;
+        height: 20px;
+
+    }
+    .c6:hover .items {
+        display: block;
+
+    }
+    .c7{
+    
+        background-color: rgb(221, 140, 10);
+        color: white;
+        margin: 1px;
+        position: relative;
+        margin-top: 20px;
+        width: 120px;
+        padding: 10px;
+        text-align: center;
+        height: 20px;
+
+    }
+    .c7:hover .items {
+        display: block;
+
+    }
+    .c8{
+    
+        background-color: rgb(200, 8, 171);
+        color: white;
+        margin: 1px;
+        position: relative;
+        margin-top: 20px;
+        width: 85px;
+        padding: 10px;
+        text-align: center;
+        height: 20px;
+
+    }
+    .c8:hover .items {
+        display: block;
+
+    }
+    .c9{
+    
+        background-color: rgb(146, 139, 145);
+        color: white;
+        margin: 1px;
+        position: relative;
+        margin-top: 20px;
+        width: 85px;
+        padding: 10px;
+        text-align: center;
+        height: 20px;
+
+    }
+    .c9:hover .items {
+        display: block;
+
+    }
+    .c0{
+    
+        background-color: rgb(42, 106, 165);
+        color: white;
+        margin: 1px;
+        position: relative;
+        margin-top: 20px;
+        width: 85px;
+        padding: 10px;
+        text-align: center;
+        height: 20px;
+
+    }
+    .c0:hover .items {
+        display: block;
+
+    }
+    .c11{
+    
+        background-color: red;
+        color: white;
+        margin: 1px;
+        position: relative;
+        margin-top: 20px;
+        width: 85px;
+        padding: 10px;
+        text-align: center;
+        height: 20px;
+
+    }
+    .c11:hover .items {
+        display: block;
+
+    }
+.container span {
+    font-size: 15px;
+}
+.items {
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    color: black;
+    
+    
+}
+.items a {
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.items a:hover {
+    background-color: orange;
+    color: white;
+}
+.container:hover .items {
+    display: block;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2px;
+}
+.software{
+    background-image: url(https://media.istockphoto.com/id/1469903028/vector/encryptionkey.jpg?s=612x612&w=0&k=20&c=97CaVgU7kZjPmmvJ-7eLXhM3ayGKbq5F68EDA4gyVYk=);
+    height: 350px;
+    width: 500px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 5px;
+    
+    
+   
+    
+}
+.software h2{
+    color: orange;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 10px;
+    margin-top: -4px;
+    text-align: center;
+   
+}
+.software p{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.section{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 5px;
+    
+}
+.placements{
+    box-shadow: 0px 0px 10px black;
+    height: 350px;
+    width: 470px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+.placements h3{
+    color: orange;
+    padding-top: 10px;
+    margin-left: 100px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    
+}
+.placements h3:hover{
+    color: darkcyan;
+}
+.placed{
+    background-color: rgb(250, 248, 248);
+    height: 12px;
+    width: 400px;
+    border-left: 4px solid green;
+    border-right: 4px solid green;
+    margin-left: 20px;
+    border-radius: 1px;
+    margin-bottom: 50px;
+   
+    
+   
+}
+.placements>.placed>a>span{
+    color: orange;
+    font-weight: 5px;
+
+}
+.placements>.placed>a{
+    padding-top: 4px;
+}
+.anchor-green{
+    color: green;
+}
+.placedstudents{
+    box-shadow: 0px 0px 10px black;
+    height: 350px;
+    width: 470px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 1px;
+    
+}
+.placedstudents>.third
+{
+    color: orange;
+    margin-top: 10px;
+    display: block; 
+    text-align: center;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+.placedstudents>.third:hover{
+    color: green;
+}
+.year{
+    background-color: rgb(54, 54, 54);
+    height: 20px;
+    width: 420px;
+    margin-top: 10px !important;
+    padding: 5px;
+}
+.placedstudents>.year{
+    color: white;
+    margin-left: 30px;
+    
+}
+.twntyfive{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 2px;
+    margin-right: 2px;
+    
+}
+.yearpassedstudents{
+    margin-top: 15px;
+   margin-bottom: 10px;
+}
+.yearpassedstudents>.twentys{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+.hire{
+    background-color: green;
+    width: 300px;
+    height: 25px;
+    padding: 13px;
+    margin-left: 80px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+.hire>a{
+    color:white;
+}
+.arrangeitems{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.institute{
+    background-color:half white;
+    height: 110px;
+    width: 220px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0px 0px 2px black;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.insih2{
+    background-color: rgb(72, 69, 69);
+    color: orange;
+    height: 25px;
+    padding: 5px;
+
+}
+.institute>p{
+    font-size: 17px;
+    padding-top: 5px;
+}
+.courses{
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    height: 150px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+.courseh4{
+    background-color: green;
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    
+}
+#courseh4para1{
+   font-size: 18px; 
+   padding-top: 10px;
+}
+.courseh4para2{
+    color: orange;
+    font-size: 18px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+.java{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.testing{
+    background-color:orange;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+
+}
+.stack{
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    height: 250px;
+    width: 400px;
+    display: block;
+    
+}
+.coursepics{
+    background-color: gainsboro;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    
+    
+}
+.stack>.coursedetails>.coursepics>h2{
+
+    color: orange;
+    padding: 5px;
+    font-size: 20px;
+}
+.imagesofcourses{
+    height: 20px;
+    width: 20px;
+    float: right;
+}
+.stack>.coursedetails>p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+
+}
+.details{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width: 120px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+    
+}
+.enroll{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    width: 120px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+}
+.width{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content:20px space-between;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    
+}
+.imagesofcourse{
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin-left: 150px;
+
+
+}
+.coursedetails{
+    bottom: 0px;
+}
+.companies{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 45px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.parts{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 2px black;
+    height: 50px;
+    position: sticky;
+    bottom: 0px;
+
+}
+.spider{
+    color: orange;
+    margin-left: 5px;
+}
+.pyspider{
+    color: navy;
+}
+.privacy{
+    color: green;
+    margin-right: 200px;
+}
+footer{
+    position: sticky;
+    bottom: 0px;
+    background-color: aliceblue;
+}
